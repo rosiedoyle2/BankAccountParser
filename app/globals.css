@@ -1,0 +1,23 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --navy:       #1a2744;
+  --navy-dark:  #111c33;
+  --lime:       #8dc63f;
+  --lime-dark:  #7ab030;
+  --white:      #ffffff;
+  --off-white:  #f4f6f9;
+  --text:       #1a2744;
+  --muted:      #6b7a99;
+  --border:     #dde3ef;
+  --error:      #c0392b;
+}
+
+html, body {
+  background: var(--off-white);
+  color: var(--text);
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+::selection { background: var(--lime); color: var(--navy); }
