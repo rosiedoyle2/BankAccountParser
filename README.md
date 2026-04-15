@@ -17,7 +17,7 @@ Convert scanned Bank of Ireland bank statements (PDF or image) into clean CSV fi
 
 ```bash
 npm install
-npm run dev
+vercel --prod --force
 ```
 
 Visit https://boi-parser.vercel.app.
