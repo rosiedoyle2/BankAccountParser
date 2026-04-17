@@ -1,6 +1,6 @@
 # BOI Statement Parser
 
-Convert scanned Bank of Ireland bank statements (PDF or image) into clean CSV files — **100% locally using Tesseract OCR. No data ever leaves your machine.**
+Convert scanned Bank of Ireland bank statements (PDF or image) into clean CSV files.
 
 ## Output CSV columns
 
